@@ -46,6 +46,7 @@
 | ❤️ **Following** | Everyone you follow in one row: live in colour, offline greyed out. |
 | 🎬 **Player** | Live-edge timeline, back to live, quality picker, stats for nerds, and the creator's page opened over the running stream. |
 | 💬 **Chat** | Read-only live chat with BTTV, FrankerFaceZ and 7TV emotes. VOD chat replay too. |
+| 🌍 **13 languages** | English, Italiano, Español, Deutsch, Français, Português, Русский, Türkçe, Polski, Nederlands, 日本語, 한국어 and 简体中文. The app follows your TV language (or pick one per app in Android settings). |
 | 🔄 **Updates inside the app** | Settings → About tells you when a new version is out and installs it. |
 
 ## 📦 Install
