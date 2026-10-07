@@ -16,6 +16,11 @@
 ---
 
 <p align="center">
+  <a href="docs/promo.mp4"><img src="docs/promo.gif" width="100%" alt="Watch the QuitchTV tour: 43 seconds, with sound"></a><br>
+  <sub>Click the preview to watch the 43-second tour with sound.</sub>
+</p>
+
+<p align="center">
   <img src="docs/screenshots/home.jpg" width="49%" alt="Home">
   <img src="docs/screenshots/following.jpg" width="49%" alt="Following">
 </p>
