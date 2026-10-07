@@ -16,7 +16,7 @@
 ---
 
 <p align="center">
-  <a href="docs/promo.mp4"><img src="docs/promo.gif" width="100%" alt="Watch the QuitchTV tour: 43 seconds, with sound"></a><br>
+  <a href="https://mart-inger.github.io/QuitchTV/"><img src="docs/promo.gif" width="100%" alt="Watch the QuitchTV tour: 43 seconds, with sound"></a><br>
   <sub>Click the preview to watch the 43-second tour with sound.</sub>
 </p>
 

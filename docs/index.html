@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QuitchTV, the tour</title>
+<meta name="description" content="A 43-second tour of QuitchTV, a live-streaming app made for the TV remote.">
+<meta property="og:title" content="QuitchTV, the tour">
+<meta property="og:description" content="A live-streaming app made for the TV remote. No login, no account.">
+<meta property="og:image" content="poster.jpg">
+<style>
+  :root { color-scheme: dark; --violet: #703ffa; --violet-lt: #b8a0ff; --grey: #a8adba; }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    background: #07080b radial-gradient(900px 600px at 50% 38%, rgba(112, 63, 250, .22), transparent 70%);
+    color: #fff; font-family: "Segoe UI Variable Display", "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; padding: 24px;
+  }
+  .stage { width: min(1280px, 100%); }
+  video {
+    display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; border-radius: 18px;
+    box-shadow: 0 40px 90px rgba(0, 0, 0, .6), 0 0 0 1px rgba(255, 255, 255, .08);
+  }
+  .row { display: flex; gap: 14px; align-items: center; justify-content: center; flex-wrap: wrap; }
+  a { color: inherit; text-decoration: none; }
+  .btn { padding: 12px 24px; border-radius: 999px; font-weight: 600; font-size: 16px; background: var(--violet); }
+  .btn:hover, .btn:focus-visible { background: #8156ff; outline: none; }
+  .ghost { background: rgba(255, 255, 255, .08); }
+  .ghost:hover, .ghost:focus-visible { background: rgba(255, 255, 255, .14); }
+  .note { color: var(--grey); font-size: 14px; }
+</style>
+</head>
+<body>
+  <div class="stage">
+    <video id="v" controls playsinline preload="auto" poster="poster.jpg" src="promo.mp4"></video>
+  </div>
+  <div class="row">
+    <a class="btn" href="https://github.com/Mart-inger/QuitchTV/releases/latest">Download QuitchTV</a>
+    <a class="btn ghost" href="https://github.com/Mart-inger/QuitchTV">Back to GitHub</a>
+  </div>
+  <div class="note">Unofficial app. Not affiliated with Twitch Interactive, Inc.</div>
+  <script>
+    // Try to start with sound; if the browser blocks that, the poster and the play button are there.
+    var v = document.getElementById('v');
+    var p = v.play(); if (p && p.catch) p.catch(function () {});
+  </script>
+</body>
+</html>
